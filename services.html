@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Serving PA counties with excellence.">
+  <meta name="keywords" content="mellor dumpster rental and property services">
+  <meta name="author" content="codingimages.com">
+  <!-- JQuery Firescroll Plugin -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Sawarabi+Gothic" rel="stylesheet">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href=img/logo.png>
+  <title>Mellor Dumpster Rentals and Property Services</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__logo clearfix">
+      <img src="img/logo.png" width="50px" height="auto" alt="">
+    </div>
+    <ul class="navbar__links">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li class = "active">
+        <a href="services.html">Services</a>
+      </li>
+      <li>
+        <a href="contact.php">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="header__2">
+    <div class="header__1-background">
+      <div class="header__1-text">
+        <h1>Our services</h1>
+      </div>
+      <div class="header__1-stars container">
+        <div class = icon-1>
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+        <div class = "icon-2">
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+        <div class = "icon-3">
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+        <div class = icon-1>
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+        <div class = icon-1>
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class = "container">
+    <div class="wrapper-2">
+      <div class="item-1 to-right">
+        <h3 class = "header__style-2">Dumpster Rental</h3>
+        <p>We rent dumpsters on a daily, weekly or monthly basis. <br>  They are great for  construction debris, deck removal, home projects, contractor or landlord renovation, remodeling and more.</p>
+        <button class="services__button">
+            <a class = "btn btn__style" href="contact.php">Contact Us</a>
+        </button>
+      </div>
+
+      <div class="image-1 to-left">
+          <img src="img/dumpster.jpg" alt="">
+      </div>
+
+      <div class="item-1 to-right">
+        <h3 class = "header__style-2">Demolition Services</h3>
+        <p>Our popular demolition services tears down to literally anything.  Either interior or exterior, we can do it.  Contact us for more information.</p>
+        <button class="services__button">
+            <a class = "btn btn__style" href="contact.php">Contact Us</a>
+        </button>
+      </div>
+
+      <div class="image-1 to-left">
+        <img src="img/demolitions.jpg" alt="">
+      </div>
+
+      <div class="item-1 to-right">
+        <h3 class = "header__style-2">Clean Outs</h3>
+        <p>As part of our property services we do clean out for estate eviction rental, residential and commercial properties, contact us for more information.</p>
+        <button class="services__button">
+            <a class = "btn btn__style" href="contact.php">Contact Us</a>
+        </button>
+      </div>
+
+      <div class="image-1 to-left">
+          <img src="img/cleanout.jpg" alt="">
+      </div>
+
+      <div class="item-1 to-right">
+        <h3 class = "header__style-2">Property Maintenance</h3>
+        <p>As part of our property services we offer year round or seasonal contracts available for residential and commercial properties.  Contact us for more information.</p>
+        <button class="services__button">
+            <a class = "btn btn__style" href="contact.php">Contact Us</a>
+        </button>
+      </div>
+
+      <div class="image-1 to-left">
+          <img src="img/maintenance.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="more to-up">
+        <h3 class = "header__style-2">More ...</h3>
+        <p>We also offer junk removal and scrap metal pick up.  Also work with deck patio floor, walls, garages and sheds.  Anything related to your property, we can help, just contact us for more information.</p>
+    </div>
+  </main>
+
+  <div class="footer">
+      <p>2018 All Rights Reserved</p>
+      <p>Website created by <a href="https://codingimages.com">Coding Images</a>. </p>
+  </div>
+
+    <!-- Fire scroll section -->
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.to-right', {
+        duration: 1000,
+        origin: 'left',
+        distance: '100px',
+        mobile: true,
+      });
+      sr.reveal('.to-left', {
+        duration: 1000,
+        origin: 'right',
+        distance: '100px',
+        mobile: true,
+      });
+      sr.reveal('.to-up', {
+        duration: 1000,
+        origin: 'bottom',
+        distance: '100px',
+        mobile: true,
+      });
+    </script>
+  </body>
+  </html>
